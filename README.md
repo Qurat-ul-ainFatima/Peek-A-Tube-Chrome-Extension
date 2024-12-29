@@ -3,7 +3,9 @@ Peek-a-Tube is a Chrome extension designed to dynamically filter YouTube content
 
 # Features
 Real-time Content Filtering: Blocks inappropriate videos automatically, enhancing safe browsing on YouTube.
+
 API Integration: Leverages YouTube Data API for metadata and Llama3 API for advanced content analysis.
+
 User-friendly Interface: Easy toggle on/off functionality and status updates via a simple popup interface.
 
 # Technologies Used:
