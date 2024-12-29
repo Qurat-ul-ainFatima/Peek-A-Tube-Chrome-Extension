@@ -41,3 +41,7 @@ Set up the following in index.tsx
 
 import Switch from 'your-path/src/chrome-extension/popup/Switch';
 
+run "npm install"
+
+run "npm run build"
+
