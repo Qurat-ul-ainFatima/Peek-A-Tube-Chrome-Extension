@@ -1,0 +1,36 @@
+{
+    "manifest_version": 3,
+    "name": "Peek-A-Tube",
+    "version": "1.0.0",
+    "permissions": [
+    "storage",
+  "tabs",
+  "alarms","cookies",
+  "notifications"
+  ],
+    "action" : {
+      "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "description": "Peek-a-Tube is a Chrome browser extension designed to ensure online safety for children aged 10–13 by filtering YouTube content.",
+  "icons": {
+    "32": "public/32.png",
+     "48": "public/48.png",
+      "128": "public/128.png",
+      "16": "public/16.png"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },"web_accessible_resources": [
+    {
+      "resources": ["popup.png"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+  }

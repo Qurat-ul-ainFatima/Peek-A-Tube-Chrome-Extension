@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "commonjs",
+    "lib": ["es2019"],
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "baseUrl": "./",
+    "paths": {
+      "*": ["src/*"]
+    },
+    "outDir": "./dist/node",
+    "composite": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
